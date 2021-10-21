@@ -7,17 +7,10 @@ import { CustomThemeProvider } from '../theme/ThemeProvider';
 function MainContainer(props) {
   return (
     <CustomThemeProvider>
-      <BackgroundColor>
-        <GlobalStyle />
-        <Container>{props.children}</Container>
-      </BackgroundColor>
+      <GlobalStyle />
+      <Container>{props.children}</Container>]
     </CustomThemeProvider>
   );
 }
 
 export default MainContainer;
-
-export const BackgroundColor = styled.div`
-  background-color: ${({ theme }) => theme.colors.background};
-  min-height: 100vh;
-`;

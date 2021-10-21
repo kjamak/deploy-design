@@ -1,10 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export function useWindowSize() {
-  const [windowSize, setWindowSize] = useState({
-    width: 1400,
-    height: undefined,
-  });
+
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
