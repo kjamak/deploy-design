@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "SFRounded-Bold";
+    font-display: block;
+      src: local("SFRounded-Bold"), url("/assets/fonts/SFRounded-Bold.ttf") format("opentype");
+    }
+    
+    @font-face {
+    font-family: "SFRounded-Regular";
+    font-display: block;
+      src: local("SFRounded-Regular"), url("/assets/fonts/SFRounded-Regular.ttf") format("opentype");
+    }
