@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col } from './grid-system';
+import { Col } from 'react-grid-system';
 import { Heading, Text } from './common/Typography';
 import Link from 'next/link';
 import LeaderboardItem from './LeaderboardItem';

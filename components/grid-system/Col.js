@@ -16,7 +16,6 @@ export default styled.div`
 
   @media (max-width: 768px) {
     max-width: ${({ xs }) => (xs && `${(xs / 12) * 100}%`) || '100%'};
-    background-color: blue;
   }
 
   @media (min-width: 576px) and (max-width: 768px) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from './grid-system';
+import { Col, Container, Row } from 'react-grid-system';
 import styled from 'styled-components';
 import { FlexRowWrapper } from './common/FlexRowWrapper';
 import { Icon } from './common/Icon';

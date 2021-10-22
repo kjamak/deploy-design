@@ -2,7 +2,7 @@ import axios from 'axios';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { Col, Row } from '../../components/grid-system';
+import { Col, Row } from 'react-grid-system';
 import LibraryDetails from '../../components/LibraryDetails';
 import LibraryStats from '../../components/LibraryStats';
 import MainContainer from '../../components/MainContainer';

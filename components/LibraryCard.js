@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col } from './grid-system';
+import Col from './grid-system/Col';
 import Link from 'next/link';
 import { Card } from './common/Card';
 import { Heading, Text } from './common/Typography';
@@ -17,7 +17,7 @@ function LibraryCard({ library }) {
 
   return (
     <Link href={`/libraries/${library?.slug}`}>
-      <Col lg={6} xl={4} style={{ marginTop: '10px' }}>
+      <Col md={2} xl={4} style={{ marginTop: '10px' }}>
         <Card>
           <TopCard>
             <FlexRowWrapper justifyContent="space-between">
