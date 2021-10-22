@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+export const Button = styled.a`
   width: ${({ width }) => width || '100%'};
   background-color: ${({ theme, backgroundColor, loading }) =>
     loading
@@ -37,7 +37,7 @@ export const Button = styled.button`
   }
 `;
 
-export const SecondaryButton = styled.button`
+export const SecondaryButton = styled.a`
   width: ${({ width }) => width || '100%'};
   background-color: ${({ theme, backgroundColor, loading }) =>
     loading

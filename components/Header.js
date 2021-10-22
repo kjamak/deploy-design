@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-grid-system';
+import { Col, Row } from './grid-system';
 import Logo from './common/Logo';
 import { Heading, Text } from './common/Typography';
 import Link from 'next/link';

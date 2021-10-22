@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-grid-system';
+import { Row, Col } from './grid-system';
 import { FilterItems } from '../data/FILTERITEMS';
 import SelectInput from './common/SelectInput';
 import { Text } from './common/Typography';

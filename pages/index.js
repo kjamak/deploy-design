@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { Col, Row } from 'react-grid-system';
+import { Col, Row } from '../components/grid-system';
 import About from '../components/About';
 import { Heading, Text } from '../components/common/Typography';
 import FilterSortHeader from '../components/FilterSortHeader';

@@ -30,22 +30,23 @@ function LibraryStats({ library, trends }) {
         </li>
       </Info>
       <FlexRowWrapper marginTop="50px">
-        <a
+        <SecondaryButton
           href={`https://github.com/${library.repo}`}
           target="_blank"
           rel="nofollow"
-          style={{ width: '60%', marginRight: '5px' }}
+          marginRight="5px"
         >
-          <SecondaryButton>View on Github</SecondaryButton>
-        </a>
-        <a
+          View on Github
+        </SecondaryButton>
+
+        <Button
           href={library.examples}
           target="_blank"
           rel="nofollow"
-          style={{ width: '40%', marginRight: '5px' }}
+          width="60%"
         >
-          <Button>Demo</Button>
-        </a>
+          Demo
+        </Button>
       </FlexRowWrapper>
       <RowWithLine justifyContent="center">
         <Heading textAlign="center" marginTop="55px" level={3}>
