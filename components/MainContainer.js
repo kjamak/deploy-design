@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from './grid-system';
+import { Container } from 'react-grid-system';
 import styled from 'styled-components';
 import GlobalStyle from '../theme/globalStyles';
 import { CustomThemeProvider } from '../theme/ThemeProvider';

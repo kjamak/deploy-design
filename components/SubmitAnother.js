@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col } from './grid-system';
+import { Col } from 'react-grid-system';
 import styled from 'styled-components';
 import { submitAnotherURL } from '../data/SUBMITANOTHER';
 import { Card } from './common/Card';
